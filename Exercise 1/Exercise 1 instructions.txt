@@ -1,0 +1,9 @@
+Use the given code Exercise1.c. 
+Do not modify the function prototypes or the main function. 
+Add code to the three empty functions so that code works correctly:
+• void oddNumbers(int lower, int upper) prints out all odd numbers from 40 to 0 (39, 37, 35,
+… 1). Use for loop and modulo operator.
+• void divisbleNumbers() prints out all numbers between 0 and 100 that are divisible by both
+2 and 3. Use for loop and modulo operator.
+• void sumOfMultiples() prints out the sum of multiples of 4 and 7 between 0 and 999.
+i. Hint: sum of multiples of 4 and 7 below 50 is 480 (= 4 + 7 + 8 + 12 + 14 + … + 49)

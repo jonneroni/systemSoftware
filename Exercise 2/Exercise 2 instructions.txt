@@ -1,0 +1,34 @@
+Implement the following program (name it Exercise2.c) that contains at least three functions that
+you call from your main function. 
+
+Notice: Keep the main function as short as possible, mainly just
+call functions from there. 
+Name the functions properly and descriptively (not like firstFunction,
+secondFunction etc.)
+
+• First function returns a random number on range [0 - 10000]
+• Second function prints out and counts the length of the Collatz sequence for the random
+number you just generated. Collatz sequence is iterated for positive integers like this:
+i. n -> n / 2 (so if n is even, divide it by two)
+
+ii. n -> 3n + 1 (so if n is odd, triple it and add one)
+
+iii. For example for number 13 the sequence is like this (sequence starts from 13 and
+ends when it reaches 1):
+• Collatz sequenced for 13 is: 13 – 40 – 20 – 10 – 5 – 16 – 8 – 4 – 2 – 1
+• Length of the sequence is: 10 (length includes the number itself and also
+number 1)
+
+iv. So print out (clearly) the sequence and then the length of it (use descriptive and
+readable output prints)
+
+v. Remember that random number can also be 0 or 1. Do proper error checking and
+give descriptive error messages.
+• Third function takes the Collatz sequence length as parameter and checks if the number is
+a prime number
+
+i. https://whatis.techtarget.com/definition/prime-number
+ii. Use the following output prints:
+• Number XYZ is/is not prime, for example:
+• Number 10 is not prime
+• Number 23 is prime

@@ -1,0 +1,4 @@
+Work out the sum of the one-hundred 50-digit numbers (that you shall read from file Numbers.txt,
+please do not modify that file) and print the sum to screen 
+(notice: do not include any C libraries
+that can handle BIG numbers, but work out the sum column by column)

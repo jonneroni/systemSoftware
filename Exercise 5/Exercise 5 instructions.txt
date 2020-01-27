@@ -1,0 +1,13 @@
+1. Your program shall ask how many languages user wants to input and then ask information of the
+language (language name, ISO 639-1 code, language family and number of people who speaks the
+language).
+2. Your program shall dynamically allocate memory for correct amount of structs
+3. Your program shall have void addLanguage(/*parameters here*/) function (with necessary
+parameters): function adds the information asked from user to correct members of a struct
+4. Your program shall have void printLanguages(/*parameters here*/) function (with necessary
+parameters): function prints out all added languages
+5. Otherwise use common sense how you divide your code into functions
+6. After adding all languages, the list of languages shall be printed out. 
+7. Please have the necessary error checking so that user cannot leave language name empty. Print a
+descriptive error message if user leaves language name empty, ask the name again until it is
+inputted and then move on to the rest of the information normally. 
